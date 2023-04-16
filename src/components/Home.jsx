@@ -9,22 +9,22 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="  bg-sky-100 dark:bg-slate-900 dark:text-white h-screen w-full flex-col flex items-left font-myfont"
+      className="bg-sky-100 dark:bg-slate-900 dark:text-white h-screen w-full flex-col flex items-left font-myfont"
     >
       <div className="w-2/3 mx-auto h-full flex flex-col justify-center items-center sm:flex-row">
-        <div className="sm:flex gap-4 items-center">
-          <div className=" h-48 w-48 sm:h-60 sm:w-60">
+        <div className="sm:flex  gap-4 items-center">
+          <div className=" mx-auto h-36 w-36 sm:h-60 sm:w-60">
             <img
               src={Me}
               alt=""
               className="w-full object-cover h-full shadow-md shadow-sky-700 rounded-lg"
             />
           </div>
-          <div className="mt-2">
-            <p className="text-sky-700 text-xl sm:text-2xl mb-1">Welcome! My Name is</p>
-            <h1 className="sm:text-6xl text-3xl mb-1 font-bold">Ismael Favela </h1>
-            <p className=" text-xl sm:text-4xl mb-1">I'm a 
-            <span className="text-sky-700 text-xl sm:text-3xl mb-1 font-bold"> </span>
+          <div className="mt-5">
+            <p className="text-sky-700 text-2xl :text-2xl mb-1">Welcome! My Name is</p>
+            <h1 className="sm:text-6xl text-2xl mb-1 font-bold">Ismael Favela </h1>
+            <p className=" text-l sm:text-4xl mb-5 mx-aut"> I'm a 
+            <span className=" text-sky-700 text-xl sm:text-3xl mb-1 font-bold"> </span>
              {/*ANIMATION */}
             <TypeAnimation 
             sequence={['Programmer',2000 , 'Software Engineer',2000, 'Technology Fan',2000]}
@@ -40,6 +40,12 @@ const Home = () => {
                 My Projects
               </button>
             </Link>
+            
+            <button className="ml-4 py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300"
+                 onClick={() => window.open('https://drive.google.com/file/d/1Bak0pRGEsHW7iyyHP_byKe0jrUvHtk_b/view?usp=share_link')} >
+                  Resume
+                  </button>
+
           </div>
         </div>
       </div>
