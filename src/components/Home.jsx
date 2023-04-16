@@ -41,7 +41,7 @@ const Home = () => {
               </button>
             </Link>
             
-            <button className="sm:ml-4  mt-2 py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300"
+            <button className="sm:ml-4 ml-2 mt-2 py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300"
                  onClick={() => window.open('https://drive.google.com/file/d/1Bak0pRGEsHW7iyyHP_byKe0jrUvHtk_b/view?usp=share_link')} >
                   Resume
                   </button>
