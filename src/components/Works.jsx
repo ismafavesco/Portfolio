@@ -49,10 +49,11 @@ const Work = () => {
           <div
             style={{
               backgroundImage:
-              'url("https://www.linkpicture.com/q/favesocial.png',
+              'url("https://i.postimg.cc/Gtxjtkyd/favesocial.png',
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
+              backgroundPosition: "center ",
               backgroundSize: "cover ",
+
             }}
             className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
