@@ -19,7 +19,7 @@ const Work = () => {
           <div
             style={{
               backgroundImage:
-              'url("https://i.postimg.cc/GpKRGTHN/Screenshot-2023-09-10-231026.png',
+              'url("https://i.postimg.cc/3JLG7h2Q/esifi.png',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
