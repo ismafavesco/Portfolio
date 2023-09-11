@@ -19,7 +19,7 @@ const Work = () => {
           <div
             style={{
               backgroundImage:
-                'url("https://img.freepik.com/premium-vector/dancing-dice-cartoon_96037-277.jpg',
+              'url("https://ibb.co/M7Qz0fK',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -28,13 +28,13 @@ const Work = () => {
           >
             <div className="w-full h-full bg-sky-700 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>Dancing Dice</p>
+                <p>Esifi</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                A dice game made with HTML, CSS and JavaScript that has a unique feature.
+                An AI software build with React, Typescript, Node.js, Next,js, Clerk and different Api
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://ismafavesco.github.io/Dancing-Dice/"
+                    href="https://esifi-jdcee57ny-ismafavesco.vercel.app/"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
@@ -111,7 +111,7 @@ const Work = () => {
           <div
             style={{
               backgroundImage:
-              'url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yNTEtbWluZC1pbnN0Z3JhbS0wMy5qcGc.jpg',
+                'url("https://img.freepik.com/premium-vector/dancing-dice-cartoon_96037-277.jpg',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -120,13 +120,13 @@ const Work = () => {
           >
             <div className="w-full h-full bg-sky-700 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>Coming Soon</p>
+                <p>Dancing Dice</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  Projects are in maintainance for perfect user experience
+                A dice game made with HTML, CSS and JavaScript that has a unique feature.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="{/*PROJECT REDIRECT LINK*/}"
+                    href="https://ismafavesco.github.io/Dancing-Dice/"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
