@@ -34,7 +34,7 @@ const Work = () => {
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://esifi-jdcee57ny-ismafavesco.vercel.app/"
+                    href="https://esifi-rjlubbq0y-ismafavesco.vercel.app/"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
