@@ -30,7 +30,7 @@ const Work = () => {
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Esifi</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                An AI software created with React, Typescript, Node.js, Next,js, Clerk and different Api
+                An AI software created with React, Typescript, Node.js, Next,js, Clerk and different Api (2023)
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
@@ -61,7 +61,7 @@ const Work = () => {
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Favesocial</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-               Basic semi-responsive social media website made with HTML, CSS and JavaScript 
+               Basic semi-responsive social media website made with HTML, CSS and JavaScript (2020)
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
@@ -122,7 +122,7 @@ const Work = () => {
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Dancing Dice</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                A dice game made with HTML, CSS and JavaScript that has a unique feature.
+                A dice game made with HTML, CSS and JavaScript that has a unique feature. (2019)
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
