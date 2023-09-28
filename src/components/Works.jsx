@@ -80,7 +80,7 @@ const Work = () => {
           <div
             style={{
               backgroundImage:
-              'url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yNTEtbWluZC1pbnN0Z3JhbS0wMy5qcGc.jpg',
+              'url("https://i.postimg.cc/NjtH1jF5/Screenshot-2023-09-28-164045.png',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -89,14 +89,14 @@ const Work = () => {
           >
             <div className="w-full h-full bg-sky-700 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>Coming Soon</p>
+                <p>QuizAI</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                Projects are in maintainance for perfect user experience
+                AI quiz generator built with Typescript, React, Prisma, Next.js, Planetscale, Tailwind, and Openai (2023)
 
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="{/*PROJECT REDIRECT LINK*/}"
+                    href="{https://quizai-ten.vercel.app}"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
