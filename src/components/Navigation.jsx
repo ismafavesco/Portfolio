@@ -1,5 +1,7 @@
 import React from "react";
 import { FaHome, FaUser, FaRegEnvelope, FaAtom } from "react-icons/fa";
+import React from "react";
+import { FaHome, FaUser, FaRegEnvelope, FaAtom, FaBrain } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Navigation = () => {
@@ -28,6 +30,16 @@ const Navigation = () => {
           </Link>
         </li>
         <li className="relative text-2xl sm:text-3xl bg-sky-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
+         
+          <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-80 duration-300 opacity-0 py-2 px-3 bg-sky-600 rounded-full">
+        {/* Skills */}
+            <p className="text-base">Skills</p>
+          </div>
+          <Link to="Skills" smooth={true} duration={500}>
+            <FaBrain />
+          </Link>
+        </li>
+        <li className="relative text-2xl sm:text-3xl bg-sky-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
           <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-80 duration-300 opacity-0 py-2 px-3 bg-sky-600 rounded-full">
         
         {/* PROJECTS */}
@@ -53,3 +65,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
