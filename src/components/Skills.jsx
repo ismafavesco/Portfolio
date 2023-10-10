@@ -1,6 +1,8 @@
 
 import {AiOutlineConsoleSql} from "react-icons/ai"
-import { SiJavascript, SiReact, SiJava, SiNodedotjs, SiPython, SiTailwindcss, SiTensorflow } from "react-icons/si";
+import { SiJavascript, SiGooglecloud, SiReact, SiJava, SiNodedotjs, SiPython, SiTailwindcss, SiTensorflow, SiNextdotjs,SiLinux, SiDocker } from "react-icons/si";
+
+
 
 const Skills = () => {
   return (
@@ -24,9 +26,15 @@ const Skills = () => {
         <SkillCard icon={<SiPython />} title="Python" />
         <SkillCard icon={<AiOutlineConsoleSql />} title="SQL" />
         <SkillCard icon={<SiTailwindcss />} title="Tailwind" />
+        <SkillCard icon={<SiGooglecloud />} title="Cloud Computing" />
+        <SkillCard icon={<SiNextdotjs />} title="Next.js" />
         <SkillCard icon={<SiTensorflow />} title="AI" />
+        <SkillCard icon={<SiLinux />} title="Linux" />
+        <SkillCard icon={<SiDocker />} title="Docker" />
       </div>
     </div>
+
+
     </div>
   );
 };
