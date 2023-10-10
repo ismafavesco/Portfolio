@@ -1,5 +1,4 @@
-import React from "react";
-import { FaHome, FaUser, FaRegEnvelope, FaAtom } from "react-icons/fa";
+
 import React from "react";
 import { FaHome, FaUser, FaRegEnvelope, FaAtom, FaBrain } from "react-icons/fa";
 import { Link } from "react-scroll";
