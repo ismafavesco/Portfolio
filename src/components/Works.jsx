@@ -96,7 +96,7 @@ const Work = () => {
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://quizai-ten.vercel.app"
+                    href="{https://quizai-ten.vercel.app}"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
@@ -127,6 +127,35 @@ const Work = () => {
                 <div className="absolute right-2 bottom-2">
                   <a
                     href="https://ismafavesco.github.io/Dancing-Dice/"
+                    className="cursor-pointer block"
+                    target={"_blank"}
+                  >
+                    <FaDownload className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-white text-sky-700 duration-300" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Project 5 starts */}
+          <div
+            style={{
+              backgroundImage:
+                'url("https://i.postimg.cc/CLdKdLc9/faveballs.png',
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+            className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+          >
+            <div className="w-full h-full bg-sky-700 opacity-0 hover:opacity-100 duration-300">
+              <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
+                <p>Faveballs</p>
+                <p className="text-xl font-normal text-gray-200 mt-2">
+                An online multiplayer game built with vanilla Javascript, HTML, and Css runing on an Akami linode server. (2023)
+                </p>
+                <div className="absolute right-2 bottom-2">
+                  <a
+                    href="http://ismafavesco.com/"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
