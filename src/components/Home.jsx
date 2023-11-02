@@ -3,7 +3,6 @@ import Me from "../assets/Me.jpg";
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
 
-
 //Present myself
 const Home = () => {
   return (
@@ -36,14 +35,19 @@ const Home = () => {
             </p>
 
              <Link to="work" smooth={true} duration={500}>
-              <button className=" py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300 ">
+              <button className="py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300 ">
                 My Projects
               </button>
             </Link>
             
-            <button className="sm:ml-4 ml-2 mt-2 py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300"
+                  <button className="sm:ml-4 ml-2 mt-2 py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300"
                  onClick={() => window.open('https://drive.google.com/file/d/1LXe3uoy2MUahHxe8KfBnj-YcWYXDncWh/view?usp=sharing')} >
                   Resume
+                  </button>
+                 
+                  <button className= " mx-auto flex sm:ml-4 ml-2 mt-2 py-2 px-3 border-2 border-sky-700 bg-sky-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-sky-700 duration-300"
+                  onClick={() => window.open('https://www.buymeacoffee.com/ismafavesco', '_blank')} >
+                     Buy me a coffee? ☕
                   </button>
 
           </div>
