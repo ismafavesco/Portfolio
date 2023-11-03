@@ -14,7 +14,7 @@ const Social = () => {
   return (
     <div className="fixed top-[30%] sm:right-6 right-3">
       <ul className="flex flex-col gap-6">
-        //instagram
+        
         <li className="relative group text-2xl sm:text-3xl bg-[#DD2A7B] text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer">
           <div className="hidden lg:block absolute right-14 bottom-1 group-hover:opacity-80 duration-300 opacity-0 py-2 px-3 bg-[#DD2A7B] rounded-full">
             <p className="text-base">Instagram</p>
@@ -23,7 +23,7 @@ const Social = () => {
             <FaInstagram />
           </a>
         </li>
-        //linkedin
+        
         <li className="relative group text-2xl sm:text-3xl bg-[#006192] text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer">
           <div className="hidden lg:block absolute right-14 bottom-1 group-hover:opacity-80 duration-300 opacity-0 py-2 px-3 bg-[#006192] rounded-full">
             <p className="text-base">LinkedIn</p>
@@ -35,7 +35,7 @@ const Social = () => {
             <FaLinkedinIn />
           </a>
         </li>
-        //github
+      
         <li className="relative group text-2xl sm:text-3xl bg-[#171515] text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer">
           <div className="hidden lg:block absolute right-14 bottom-1 group-hover:opacity-80 duration-300 opacity-0 py-2 px-3 bg-[#171515] rounded-full">
             <p className="text-base">Github</p>
